@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#controls{
+    position: absolute;
+    width: 400px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20px;
+}
+#main_container{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
